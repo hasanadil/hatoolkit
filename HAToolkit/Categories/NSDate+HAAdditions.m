@@ -10,6 +10,12 @@
 
 @implementation NSDate (HAAdditions)
 
+-(NSString*) year {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy"];
+    return [formatter stringFromDate:self];
+}
+
 -(NSString*) description
 {
     NSDateFormatter* df = [[NSDateFormatter alloc] init];

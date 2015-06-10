@@ -28,4 +28,6 @@
 
 -(NSArray*) hourlyDateTimesDuringTheDay;
 
+-(NSString*) year;
+
 @end

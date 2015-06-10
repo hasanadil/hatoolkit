@@ -14,6 +14,20 @@
 		9F805A881B27884700580CEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F805A871B27884700580CEB /* Images.xcassets */; };
 		9F805A8B1B27884700580CEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F805A891B27884700580CEB /* LaunchScreen.xib */; };
 		9F805A971B27884700580CEB /* HAToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805A961B27884700580CEB /* HAToolkitTests.m */; };
+		9F805AA31B2789C400580CEB /* UIImage+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AA21B2789C400580CEB /* UIImage+HAAdditions.m */; };
+		9F805AA41B2789C400580CEB /* UIImage+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AA21B2789C400580CEB /* UIImage+HAAdditions.m */; };
+		9F805AA81B278AD100580CEB /* NSDate+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AA71B278AD100580CEB /* NSDate+HAAdditions.m */; };
+		9F805AA91B278AD100580CEB /* NSDate+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AA71B278AD100580CEB /* NSDate+HAAdditions.m */; };
+		9F805AAE1B278C0800580CEB /* UIColor+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AAD1B278C0800580CEB /* UIColor+HAAdditions.m */; };
+		9F805AAF1B278C0800580CEB /* UIColor+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AAD1B278C0800580CEB /* UIColor+HAAdditions.m */; };
+		9F805AB31B278C6B00580CEB /* CLHeading+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AB21B278C6B00580CEB /* CLHeading+HAAdditions.m */; };
+		9F805AB41B278C6B00580CEB /* CLHeading+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AB21B278C6B00580CEB /* CLHeading+HAAdditions.m */; };
+		9F805AB61B278C7A00580CEB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F805AB51B278C7A00580CEB /* CoreLocation.framework */; };
+		9F805AB91B278D6000580CEB /* UIView+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AB81B278D6000580CEB /* UIView+HAAdditions.m */; };
+		9F805ABA1B278D6000580CEB /* UIView+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F805AB81B278D6000580CEB /* UIView+HAAdditions.m */; };
+		9FD434D21B27C7AF00E1B882 /* UIToolbar+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD434D11B27C7AF00E1B882 /* UIToolbar+HAAdditions.m */; };
+		9FD434D51B27C81000E1B882 /* UINavigationBar+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD434D41B27C81000E1B882 /* UINavigationBar+HAAdditions.m */; };
+		9FDD5A631B2790CD0018663D /* NSArray+HAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDD5A621B2790CD0018663D /* NSArray+HAAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,24 @@
 		9F805A901B27884700580CEB /* HAToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F805A951B27884700580CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F805A961B27884700580CEB /* HAToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAToolkitTests.m; sourceTree = "<group>"; };
+		9F805AA11B2789C400580CEB /* UIImage+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HAAdditions.h"; sourceTree = "<group>"; };
+		9F805AA21B2789C400580CEB /* UIImage+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HAAdditions.m"; sourceTree = "<group>"; };
+		9F805AA61B278AD100580CEB /* NSDate+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HAAdditions.h"; sourceTree = "<group>"; };
+		9F805AA71B278AD100580CEB /* NSDate+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HAAdditions.m"; sourceTree = "<group>"; };
+		9F805AAC1B278C0800580CEB /* UIColor+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HAAdditions.h"; sourceTree = "<group>"; };
+		9F805AAD1B278C0800580CEB /* UIColor+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HAAdditions.m"; sourceTree = "<group>"; };
+		9F805AB11B278C6B00580CEB /* CLHeading+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLHeading+HAAdditions.h"; sourceTree = "<group>"; };
+		9F805AB21B278C6B00580CEB /* CLHeading+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLHeading+HAAdditions.m"; sourceTree = "<group>"; };
+		9F805AB51B278C7A00580CEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F805AB71B278D6000580CEB /* UIView+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HAAdditions.h"; sourceTree = "<group>"; };
+		9F805AB81B278D6000580CEB /* UIView+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HAAdditions.m"; sourceTree = "<group>"; };
+		9F805ACB1B278DFE00580CEB /* HACategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACategories.h; sourceTree = "<group>"; };
+		9FD434D01B27C7AF00E1B882 /* UIToolbar+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+HAAdditions.h"; sourceTree = "<group>"; };
+		9FD434D11B27C7AF00E1B882 /* UIToolbar+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+HAAdditions.m"; sourceTree = "<group>"; };
+		9FD434D31B27C81000E1B882 /* UINavigationBar+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HAAdditions.h"; sourceTree = "<group>"; };
+		9FD434D41B27C81000E1B882 /* UINavigationBar+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HAAdditions.m"; sourceTree = "<group>"; };
+		9FDD5A611B2790CD0018663D /* NSArray+HAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HAAdditions.h"; sourceTree = "<group>"; };
+		9FDD5A621B2790CD0018663D /* NSArray+HAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HAAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F805AB61B278C7A00580CEB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +96,9 @@
 		9F805A6E1B27884700580CEB = {
 			isa = PBXGroup;
 			children = (
+				9F805AA01B27892A00580CEB /* Categories */,
 				9F805A791B27884700580CEB /* HAToolkit */,
+				9FD434CF1B27C3C400E1B882 /* Frameworks */,
 				9F805A931B27884700580CEB /* HAToolkitTests */,
 				9F805A781B27884700580CEB /* Products */,
 			);
@@ -117,6 +152,63 @@
 				9F805A951B27884700580CEB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F805AA01B27892A00580CEB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9F805AB01B278C4D00580CEB /* CoreLocation */,
+				9F805AAB1B278B5100580CEB /* UIKit */,
+				9F805AAA1B278B4900580CEB /* Foundation */,
+				9F805ACB1B278DFE00580CEB /* HACategories.h */,
+			);
+			name = Categories;
+			path = HAToolkit/Categories;
+			sourceTree = "<group>";
+		};
+		9F805AAA1B278B4900580CEB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9F805AA61B278AD100580CEB /* NSDate+HAAdditions.h */,
+				9F805AA71B278AD100580CEB /* NSDate+HAAdditions.m */,
+				9FDD5A611B2790CD0018663D /* NSArray+HAAdditions.h */,
+				9FDD5A621B2790CD0018663D /* NSArray+HAAdditions.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		9F805AAB1B278B5100580CEB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F805AAC1B278C0800580CEB /* UIColor+HAAdditions.h */,
+				9F805AAD1B278C0800580CEB /* UIColor+HAAdditions.m */,
+				9F805AA11B2789C400580CEB /* UIImage+HAAdditions.h */,
+				9F805AA21B2789C400580CEB /* UIImage+HAAdditions.m */,
+				9F805AB71B278D6000580CEB /* UIView+HAAdditions.h */,
+				9F805AB81B278D6000580CEB /* UIView+HAAdditions.m */,
+				9FD434D01B27C7AF00E1B882 /* UIToolbar+HAAdditions.h */,
+				9FD434D11B27C7AF00E1B882 /* UIToolbar+HAAdditions.m */,
+				9FD434D31B27C81000E1B882 /* UINavigationBar+HAAdditions.h */,
+				9FD434D41B27C81000E1B882 /* UINavigationBar+HAAdditions.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		9F805AB01B278C4D00580CEB /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				9F805AB11B278C6B00580CEB /* CLHeading+HAAdditions.h */,
+				9F805AB21B278C6B00580CEB /* CLHeading+HAAdditions.m */,
+			);
+			name = CoreLocation;
+			sourceTree = "<group>";
+		};
+		9FD434CF1B27C3C400E1B882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F805AB51B278C7A00580CEB /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +311,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD434D51B27C81000E1B882 /* UINavigationBar+HAAdditions.m in Sources */,
+				9F805AB31B278C6B00580CEB /* CLHeading+HAAdditions.m in Sources */,
+				9F805AA31B2789C400580CEB /* UIImage+HAAdditions.m in Sources */,
 				9F805A831B27884700580CEB /* ViewController.m in Sources */,
+				9F805AB91B278D6000580CEB /* UIView+HAAdditions.m in Sources */,
 				9F805A801B27884700580CEB /* AppDelegate.m in Sources */,
+				9F805AA81B278AD100580CEB /* NSDate+HAAdditions.m in Sources */,
+				9F805AAE1B278C0800580CEB /* UIColor+HAAdditions.m in Sources */,
 				9F805A7D1B27884700580CEB /* main.m in Sources */,
+				9FD434D21B27C7AF00E1B882 /* UIToolbar+HAAdditions.m in Sources */,
+				9FDD5A631B2790CD0018663D /* NSArray+HAAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F805AAF1B278C0800580CEB /* UIColor+HAAdditions.m in Sources */,
+				9F805ABA1B278D6000580CEB /* UIView+HAAdditions.m in Sources */,
+				9F805AA41B2789C400580CEB /* UIImage+HAAdditions.m in Sources */,
+				9F805AA91B278AD100580CEB /* NSDate+HAAdditions.m in Sources */,
 				9F805A971B27884700580CEB /* HAToolkitTests.m in Sources */,
+				9F805AB41B278C6B00580CEB /* CLHeading+HAAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +523,7 @@
 				9F805A9C1B27884700580CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F805A9D1B27884700580CEB /* Build configuration list for PBXNativeTarget "HAToolkitTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +532,7 @@
 				9F805A9F1B27884700580CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

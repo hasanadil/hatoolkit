@@ -10,8 +10,10 @@
 
 @interface UIColor (HAAdditions)
 
-+(UIColor *) colorWithHexString: (NSString *) hexString;
++ (UIColor *)colorWithHexString: (NSString *) hexString;
 
--(NSString*) hexString;
+- (NSString*)hexString;
+
+- (UIColor*)colorByChangingAlphaTo:(CGFloat)newAlpha;
 
 @end

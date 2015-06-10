@@ -10,4 +10,6 @@
 
 @interface NSArray (HAAdditions)
 
+-(NSArray*) arrayByReversingArray;
+
 @end

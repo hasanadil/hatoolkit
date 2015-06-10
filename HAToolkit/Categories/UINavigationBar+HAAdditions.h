@@ -10,4 +10,6 @@
 
 @interface UINavigationBar (HAAdditions)
 
+-(void) clearBackground;
+
 @end

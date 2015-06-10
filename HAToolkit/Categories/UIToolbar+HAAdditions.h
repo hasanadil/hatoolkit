@@ -10,4 +10,6 @@
 
 @interface UIToolbar (HAAdditions)
 
+-(void) clearBackground;
+
 @end

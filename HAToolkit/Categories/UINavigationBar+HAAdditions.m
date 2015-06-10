@@ -10,4 +10,10 @@
 
 @implementation UINavigationBar (HAAdditions)
 
+-(void) clearBackground {
+    [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    self.shadowImage = [UIImage new];
+    self.translucent = YES;
+}
+
 @end
