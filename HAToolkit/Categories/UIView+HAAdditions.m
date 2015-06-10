@@ -154,7 +154,7 @@
     CAAnimationGroup *anims = [CAAnimationGroup animation];
     anims.animations = [NSArray arrayWithObjects:pathAnim, opacityAnim, nil];
     anims.removedOnCompletion = NO;
-    anims.duration = 0.5f;
+    anims.duration = .75f;
     anims.fillMode  = kCAFillModeForwards;
     [circle addAnimation:anims forKey:nil];
     
