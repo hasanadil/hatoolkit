@@ -15,5 +15,6 @@
 #import "UIImage+HAAdditions.h"
 #import "UIView+HAAdditions.h"
 #import "NSDate+HAAdditions.h"
+#import "UIToolbar+HAAdditions.h"
 
 #endif
